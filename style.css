@@ -194,6 +194,12 @@ body {
     background-color: hsl(224, 30%, 27%);
     border-radius: 3rem;
     border: none;
+    transition: all 0.5s;
+}
+
+.board-right-button__btn:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    cursor: pointer;
 }
 
 .board-right__number {
