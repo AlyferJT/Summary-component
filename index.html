@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <section class="main">
+    <div class="board">
+      <div class="board-left">
+
+        <div class="board-left-title">
+          <h2 class="board-left-title__h2">Your Result</h2>
+        </div>
+
+        <div class="board-left-circle">
+          <h2 class="board-left-circle__h2">76</h2>
+          <p class="board-left-circle__p">of 100</p>
+        </div>
+
+        <div class="board-left-info">
+          <h2 class="board-left-info__h2">Great</h2>
+          <p class="board-left-info__p">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+
+      </div>
+
+      <div class="board-right">
+
+        <div class="board-right-title">
+          <h2 class="board-right-title__h2">Summary</h2>
+        </div>
+
+        <div class="board-right-summary">
+          <div class="board-right-summary-reaction board-right-card">
+            <div class="board-right-summary-reaction-leftblock board-right-leftblock">
+              <img class="board-right-summary-reaction-leftblock__img" src="./assets/images/icon-reaction.svg" alt="reaction icon">
+              <h2 class="board-right-summary-reaction-leftblock__name red-color">Reaction</h2>
+            </div>
+            <p class="board-right-summary-reaction__number board-right__number">80<span class="percent"> / 100</span></p>
+          </div>
+
+          <div class="board-right-summary-memory board-right-card">
+            <div class="board-right-summary-memory-leftblock board-right-leftblock">
+              <img class="board-right-summary-memory-leftblock__img" src="./assets/images/icon-memory.svg" alt="memory icon">
+              <h2 class="board-right-summary-memory-leftblock__name yellow-color">Memory</h2>
+            </div>
+            <p class="board-right-summary-memory__number board-right__number">92<span class="percent"> / 100</span></p>
+          </div>
+          
+          <div class="board-right-summary-verbal board-right-card">
+            <div class="board-right-summary-verbal-leftblock board-right-leftblock">
+              <img class="board-right-summary-verbal-leftblock__img" src="./assets/images/icon-verbal.svg" alt="verbal icon">
+              <h2 class="board-right-summary-verbal-leftblock__name green-color">Verbal</h2>
+            </div>
+            <p class="board-right-summary-verbal__number board-right__number">61<span class="percent"> / 100</span></p>
+          </div>
+
+          <div class="board-right-summary-visual board-right-card">
+            <div class="board-right-svisual-leftblock board-right-leftblock">
+              <img class="board-right-summary-visual-leftblock__img" src="./assets/images/icon-visual.svg" alt="visual icon">
+              <h2 class="board-right-summary-visual-leftblock__name blue-color">Visual</h2>
+            </div>
+            <p class="board-right-summary-visual__number board-right__number">72<span class="percent"> / 100</span></p>
+          </div>
+        </div>
+
+        <div class="board-right-button">
+          <button class="board-right-button__btn">Continue</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
